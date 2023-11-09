@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@300&family=Source+Code+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+  height: 100vh;
+}
+/* навигация */
+nav {
+  position: fixed;
+  width: 50%;
+  height: 50px;
+  margin: 0rem 15rem 0;
+  padding-left: 16rem;
+  padding-top: 1rem;
+  z-index: 5;
+  border-radius: 15px;
+  background: rgb(85 85 85 / 11%);
+  box-shadow: 0 4px 30px rgb(0 0 0 / 31%);
+  backdrop-filter: blur(4.7px);
+  -webkit-backdrop-filter: blur(4.7px);
+}
+nav a {
+  text-decoration: none;
+  color: #464646;
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 1rem;
+  font-family: "Poppins", sans-serif;
+  transition: 0.5s all;
+}
+nav a:hover {
+  color: #ffc700;
+}
+nav p {
+  margin: -1.3rem 25rem;
+  color: #ffc800e0;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: underline;
+}
+.logo {
+  position: absolute;
+  margin: -13px 1rem;
+  left: 0;
+}
+.social {
+  display: flex;
+  margin: -1.8rem 33rem;
+}
+.social img {
+  height: 30px;
+  width: 30px;
+  margin-left: 1rem;
+  transition: 0.5s all;
+}
+.social img:hover {
+  background-color: #00000037;
+  border-radius: 5px;
+}
+/* прайс-лист */
+.price {
+  margin: -45rem 8rem;
+}
+.price-text {
+  position: relative;
+  z-index: 2;
+  margin: -19rem 1rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.price-text h3 {
+  color: #ffc700;
+}
+.price-text p {
+  display: inline;
+  margin: -1.2rem 1.2rem;
+  font-size: 12px;
+  margin: 0;
+  font-weight: bold;
+}
+.price h5 {
+  width: 339px;
+}
+.price button {
+  width: 184px;
+  height: 56px;
+  border-radius: 99px;
+  border: none;
+  margin: 1rem 0rem;
+  color: white;
+  font-weight: bold;
+  background-color: #ffffff51;
+  transition: 0.5s;
+}
+.pricer-cards {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.price-card {
+  padding: 11rem 0rem;
+}
+.price-card img {
+  border-radius: 10px;
+}
+.price button:hover {
+  color: black;
+  background-color: #33beff;
+}
+h1 {
+  position: absolute;
+  margin: 7rem 0rem;
+  color: #009eff;
+  font-family: "Poppins", sans-serif;
+}
