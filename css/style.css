@@ -184,7 +184,7 @@ main h3 {
   font-size: 20px;
 }
 ul {
-  margin: 3rem 10rem;
+  margin: 3rem 8rem;
 }
 li {
   font-family: "Source Code Pro", monospace;
@@ -201,24 +201,21 @@ li {
 .advantages {
   width: 57rem;
   height: 33rem;
-  background-color: rgba(255, 255, 255, 0.153);
   display: flex;
-  box-shadow: -1px 1px 20px 3px gray;
-  padding: 4rem 0rem;
-  margin: 57rem 18rem;
+  margin: 57rem 25rem;
   border-radius: 5px;
 }
 .plus,
 .minus {
-  width: 400px;
+  width: 315px;
   height: 500px;
-  background-color: rgb(255, 255, 255);
+  background-color: #EDEDED;
   margin-left: 2.3rem;
   border-radius: 5px;
-  box-shadow: 0px 1px 11px 1px gray;
+  box-shadow: 0px 2px 8px gray;
 }
 .advantages img {
-  margin: 1rem 11rem;
+  margin: 1rem 8rem;
 }
 .reviews {
   display: flex;
@@ -227,7 +224,7 @@ li {
 .review {
   width: 689.84px;
   height: 246.43px;
-  background-color: rgb(178 178 178 / 28%);
+  background-color: #EDEDED;
   margin: -40rem 0.5rem;
   padding: 0;
   border-radius: 10px;
