@@ -184,11 +184,10 @@ main h3 {
   font-size: 20px;
 }
 ul {
-  margin: 3rem 8rem;
+  margin: 3rem 10rem;
 }
 li {
   font-family: "Source Code Pro", monospace;
-  font-weight: bold;
   margin-top: 1rem;
   font-size: 20px;
 }
@@ -198,24 +197,29 @@ li {
 .minus ul li {
   list-style-image: url(../img/minus.png);
 }
+.plus{
+  background-color:#1b9e1473 ;
+}
+.minus{
+  background-color: #9d0000bd;
+}
 .advantages {
   width: 57rem;
   height: 33rem;
   display: flex;
-  margin: 57rem 25rem;
+  margin: 57rem 16rem;
   border-radius: 5px;
 }
 .plus,
 .minus {
-  width: 315px;
+  width: 408px;
   height: 500px;
-  background-color: #EDEDED;
   margin-left: 2.3rem;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0px 2px 8px gray;
 }
 .advantages img {
-  margin: 1rem 8rem;
+  margin: 1rem 10rem;
 }
 .reviews {
   display: flex;
