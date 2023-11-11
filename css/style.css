@@ -47,9 +47,10 @@ nav p {
   margin: -1.3rem 25rem;
   color: #ffc800e0;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 14px;
   font-family: "Poppins", sans-serif;
   text-decoration: underline;
+  width: 200px;
 }
 header h1 {
   color: white;
@@ -347,7 +348,7 @@ footer a:hover {
   font-weight: bold;
   font-family: "Poppins", sans-serif;
   margin-top: 10px;
-  width: 250px;
+  width: 280px;
 }
 .footer_text {
   margin: -7rem 15rem;
