@@ -384,3 +384,40 @@ footer a:hover {
 footer .social {
   margin: -8rem 73rem;
 }
+.question{
+  top: 0;
+  margin: 41rem 86rem;
+  position: fixed;
+  float: right;
+  padding: 17px 27px;
+  background-color: #009dff41;
+  border-radius: 2rem;
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  transition: 0.5s all;
+}
+.question:hover{
+  background-color: #009eff;
+  color: white;
+}
+.question::after{
+ content: 'Задать вопрос';
+  font-size: 13px;
+  background-color: #009eff;
+  color: rgb(255, 255, 255);
+  width: 126px;
+  height: 44px;
+  position: absolute;
+  margin: -2.2rem -10rem;
+  text-align: center;
+  border-radius: 3px;
+  display: none;
+  cursor: default;
+  font-weight: 600;
+}
+.question:hover::after{
+  display: inherit;
+}
