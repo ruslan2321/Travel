@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <!-- шапка -->
     <header>
         <nav>
             <img src="img/logo.png" alt="" class="logo">
@@ -27,6 +28,7 @@
         <button><a href="./html/price-list.html">К экскурсиям ➜</a></button>
     </header>
     <main>
+       <!--  слайдер -->
         <h3>Красивые места для отдыха</h3>
         <div class="slider">
             <div class="cards">
@@ -44,6 +46,7 @@
             <button onclick="Prew()">←</button>
             <button onclick="Next()">→</button>
         </div>
+        <!-- о нас -->
         <div class="aboutus">
             <img src="img/Rectangle 4.png" alt="">
             <div class="text-aboutus">
@@ -57,6 +60,7 @@
                     dicta sunt explicabo.</p>
             </div>
         </div>
+        <!-- преимущество -->
         <div class="advantages">
 
             <div class="plus">
@@ -76,6 +80,7 @@
             </div>
 
         </div>
+        <!-- отзывы -->
         <div class="reviews">
             <div class="review">
                 <h3>Иван Иванов, 25 лет</h3>
@@ -97,22 +102,26 @@
                 <h1>Остались вопросы?</h1>
                 <p>Оставь заявку мы ответим</p>
                 <input type="text" placeholder="Имя" required>
-                <input type="tel" placeholder="Номер телефона"  required>
+                <input type="tel" placeholder="Номер телефона" required>
                 <input type="email" name="" id="" placeholder="Почта" required>
-                <textarea name="" id="" cols="30" rows="10" class="message" placeholder="Сообщение(Не менее 20 символов)" maxlength="100"></textarea>
+                <textarea name="" id="" cols="30" rows="10" class="message"
+                    placeholder="Сообщение(Не менее 20 символов)" maxlength="100"></textarea>
                 <button>Оставить заявку</button>
-            </form>
+            </form>y
         </div>
-        <a href="#form"><div class="question">
-            &#63;
-        </div></a>
+        <a onclick="Scroll()">
+            <div class="question">
+                &#63;
+            </div>
+        </a>
     </main>
+    <!-- подвал -->
     <footer>
         <img src="img/logo_color 1.png" alt="" class="logo_footer">
         <div class="footer_text">
-            <a href="" id="link">Главная</a>
-            <a href="../Travel/html/price-list.html" id="link">Экскурсии</a>
-            <a href="" id="link">Личный кабинет</a>
+            <a href="">Главная</a>
+            <a href="/html/price-list.html">Экскурсии</a>
+            <a href="">Личный кабинет</a>
         </div>
         <div class="contact">
             <p>Номер телефона: +7(49)516-94-83</p>

@@ -14,3 +14,7 @@ const Prew = () => {
   cir_2.style.backgroundColor = " rgba(0, 0, 0, 0.386)";
   cir_1.style.backgroundColor = "#0499DD";
 };
+const  Scroll = () => {
+		const element = document.getElementById('form')
+		element.scrollIntoView({ behavior: 'smooth', block: 'end' })
+ }
