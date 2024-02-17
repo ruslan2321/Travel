@@ -629,6 +629,10 @@ footer .social {
     width: 357px;
     height: 71vh;
   }
+  .question{
+   margin: 48rem 20rem;
+   position: fixed;
+  }
 	footer {
 		display: none;
 	}
