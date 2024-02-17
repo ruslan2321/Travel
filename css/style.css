@@ -523,15 +523,15 @@ footer .social {
 	.line_slide {
 		display: flex;
 		gap: 10px;
-		margin: 14rem 11rem;
+		margin: 23rem 11rem;
 		position: absolute;
 	}
 	.slider button {
-		margin: 15rem 11rem;
+		margin: 24rem 11rem;
 		position: absolute;
 		font-size: 2rem;
 	}
 	.aboutus {
-		margin: 0rem;
+		display: none;
 	}
 }
