@@ -1,439 +1,537 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@300&family=Source+Code+Pro&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@300&family=Source+Code+Pro&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 a {
-  color: white;
-  text-decoration: none;
+	color: white;
+	text-decoration: none;
 }
 body {
-  overflow-x: hidden;
-  transition: 0.5s all;
+	overflow-x: hidden;
+	transition: 0.5s all;
 }
 /* шапка сайта */
 header {
-  background-image: url(../img/Rectangle\ 1.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100vh;
+	background-image: url(../img/Rectangle\ 1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
 }
 /* навигация */
 nav {
-
-  position: fixed;
-  width: 50%;
-  height: 50px;
-  margin: 10px 15rem;
-  padding-left: 16rem;
-  padding-top: 1rem;
-  z-index: 5;
-  border-radius: 15px;
-  background: rgb(85 85 85 / 11%);
-  box-shadow: 0 4px 30px 12px rgb(0 0 0 / 31%);
-  backdrop-filter: blur(4.7px);
-  -webkit-backdrop-filter: blur(4.7px);
+	position: fixed;
+	width: 50%;
+	height: 50px;
+	margin: 10px 15rem;
+	padding-left: 16rem;
+	padding-top: 1rem;
+	z-index: 5;
+	border-radius: 15px;
+	background: rgb(85 85 85 / 11%);
+	box-shadow: 0 4px 30px 12px rgb(0 0 0 / 31%);
+	backdrop-filter: blur(4.7px);
+	-webkit-backdrop-filter: blur(4.7px);
 }
 nav a {
-  font-weight: bold;
-  font-size: 17px;
-  margin-left: 1rem;
-  font-family: "Poppins", sans-serif;
-  transition: 0.5s all;
+	font-weight: bold;
+	font-size: 17px;
+	margin-left: 1rem;
+	font-family: 'Poppins', sans-serif;
+	transition: 0.5s all;
 }
 nav a:hover {
-  color: #ffc700;
+	color: #ffc700;
 }
 nav p {
-  margin: -1.3rem 25rem;
-  color: #ffc800e0;
-  font-weight: bold;
-  font-size: 14px;
-  font-family: "Poppins", sans-serif;
-  text-decoration: underline;
-  width: 200px;
+	margin: -1.3rem 25rem;
+	color: #ffc800e0;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: underline;
+	width: 200px;
 }
 header h1 {
-  color: white;
-  padding: 20rem 12rem 0;
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  font-size: 51px;
+	color: white;
+	padding: 20rem 12rem 0;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	font-size: 51px;
 }
 header h1 span {
-  color: #ffc70000;
-  font-size: 72px;
-  font-weight: bold;
-  font-family: "Source Code Pro", monospace;
-  -webkit-text-stroke: #ffc700 1px;
+	color: #ffc70000;
+	font-size: 72px;
+	font-weight: bold;
+	font-family: 'Source Code Pro', monospace;
+	-webkit-text-stroke: #ffc700 1px;
 }
 header button {
-  width: 184px;
-  height: 53px;
-  border-radius: 99px;
-  border: none;
-  margin-left: 13rem;
-  color: white;
-  font-weight: bold;
-  background-color: #ffffff51;
-  transition: 0.5s;
+	width: 184px;
+	height: 53px;
+	border-radius: 99px;
+	border: none;
+	margin-left: 13rem;
+	color: white;
+	font-weight: bold;
+	background-color: #ffffff51;
+	transition: 0.5s;
 }
 header button:hover {
-  color: black;
-  background-color: #33beff;
+	color: black;
+	background-color: #33beff;
 }
 .logo {
-  position: absolute;
-  margin: -13px 1rem;
-  left: 0;
+	position: absolute;
+	margin: -13px 1rem;
+	left: 0;
 }
 .social {
-  display: flex;
-  margin: -1.8rem 33rem;
+	display: flex;
+	margin: -1.8rem 33rem;
 }
 .social img {
-  height: 30px;
-  width: 30px;
-  margin-left: 1rem;
-  transition: 0.5s all;
+	height: 30px;
+	width: 30px;
+	margin-left: 1rem;
+	transition: 0.5s all;
 }
 .social img:hover {
-  background-color: #00000037;
-  border-radius: 5px;
+	background-color: #00000037;
+	border-radius: 5px;
 }
 /* main */
 .slider {
-  margin: 0rem 14rem;
+	margin: 0rem 14rem;
 }
 .slider img {
-  width: 1000px;
-  height: 507px;
-  border-radius: 5px;
-  transition: 0.5s all;
+	width: 1000px;
+	height: 507px;
+	border-radius: 5px;
+	transition: 0.5s all;
 }
 main h3 {
-  color: #009eff;
-  margin: 3rem 15rem;
-  font-family: "Poppins", sans-serif;
+	color: #009eff;
+	margin: 3rem 15rem;
+	font-family: 'Poppins', sans-serif;
 }
 .slider button {
-  margin: 0rem 15rem;
-  background-color: #ffffff00;
-  border: none;
-  cursor: pointer;
-  font-size: 29px;
+	margin: 0rem 15rem;
+	background-color: #ffffff00;
+	border: none;
+	cursor: pointer;
+	font-size: 29px;
 }
 .slider button:hover {
-  color: #0499dd;
+	color: #0499dd;
 }
 .cir {
-  display: inline-block;
-  background-color: rgba(0, 0, 0, 0.386);
-  width: 12px;
-  z-index: 3;
-  height: 13px;
-  border-radius: 100px;
-  margin-top: 33rem;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.386);
+	width: 12px;
+	z-index: 3;
+	height: 13px;
+	border-radius: 100px;
+	margin-top: 33rem;
 }
 .line_slide {
-  margin: 0rem 30rem;
+	margin: 0rem 30rem;
 }
 .card_2 {
-  position: relative;
-  margin: -32rem 0rem;
-  opacity: 0;
-  transition: 0.5s;
+	position: relative;
+	margin: -32rem 0rem;
+	opacity: 0;
+	transition: 0.5s;
 }
 .card_1 {
-  transition: 0.5s all;
+	transition: 0.5s all;
 }
 #cir_1 {
-  background-color: #0499dd;
+	background-color: #0499dd;
 }
 .aboutus {
-  margin-top: 16rem;
+	margin-top: 16rem;
 }
 .aboutus img {
-  width: 50rem;
-  height: 46rem;
-  margin: 1rem 1rem;
-  border-radius: 5px;
+	width: 50rem;
+	height: 46rem;
+	margin: 1rem 1rem;
+	border-radius: 5px;
 }
 .text-aboutus {
-  position: relative;
-  z-index: 2;
-  margin: -42rem 32rem;
-  width: 593px;
-  height: 500px;
-  background-color: rgba(255, 255, 255, 0.852);
-  backdrop-filter: blur(5px);
-  border-radius: 5px;
-  box-shadow: 11px 1px 15px 1px gray;
-  padding: 1rem;
+	position: relative;
+	z-index: 2;
+	margin: -42rem 32rem;
+	width: 593px;
+	height: 500px;
+	background-color: rgba(255, 255, 255, 0.852);
+	backdrop-filter: blur(5px);
+	border-radius: 5px;
+	box-shadow: 11px 1px 15px 1px gray;
+	padding: 1rem;
 }
 .text-aboutus h1 {
-  color: #33beff;
-  padding: 2rem;
-  font-family: "Poppins", sans-serif;
+	color: #33beff;
+	padding: 2rem;
+	font-family: 'Poppins', sans-serif;
 }
 .text-aboutus p {
-  font-family: "Poppins", sans-serif;
-  width: 395px;
-  margin-left: 7rem;
+	font-family: 'Poppins', sans-serif;
+	width: 395px;
+	margin-left: 7rem;
 }
 .text-aboutus span {
-  font-weight: 600;
-  font-size: 20px;
+	font-weight: 600;
+	font-size: 20px;
 }
 ul {
-  margin: 3rem 10rem;
+	margin: 3rem 10rem;
 }
 li {
-  font-family: "Source Code Pro", monospace;
-  margin-top: 1rem;
-  font-size: 20px;
+	font-family: 'Source Code Pro', monospace;
+	margin-top: 1rem;
+	font-size: 20px;
 }
 .plus ul li {
-  list-style-image: url(../img/plus.png);
+	list-style-image: url(../img/plus.png);
 }
 .minus ul li {
-  list-style-image: url(../img/minus.png);
+	list-style-image: url(../img/minus.png);
 }
 .plus {
-  background-color: #1b9e1473;
+	background-color: #1b9e1473;
 }
 .minus {
-  background-color: #9d0000bd;
+	background-color: #9d0000bd;
 }
 .advantages {
-  width: 57rem;
-  height: 33rem;
-  display: flex;
-  margin: 57rem 16rem;
-  border-radius: 5px;
+	width: 57rem;
+	height: 33rem;
+	display: flex;
+	margin: 57rem 16rem;
+	border-radius: 5px;
 }
 .plus,
 .minus {
-  width: 408px;
-  height: 500px;
-  margin-left: 2.3rem;
-  border-radius: 10px;
-  box-shadow: 0px 2px 8px gray;
+	width: 408px;
+	height: 500px;
+	margin-left: 2.3rem;
+	border-radius: 10px;
+	box-shadow: 0px 2px 8px gray;
 }
 .advantages img {
-  margin: 1rem 10rem;
+	margin: 1rem 10rem;
 }
 .reviews {
-  display: flex;
-  margin: -10rem 1.5rem;
+	display: flex;
+	margin: -10rem 1.5rem;
 }
 .review {
-  width: 689.84px;
-  height: 246.43px;
-  background-color: #ededed;
-  margin: -40rem 0.5rem;
-  padding: 0;
-  border-radius: 10px;
-  transition: 0.5s all;
+	width: 689.84px;
+	height: 246.43px;
+	background-color: #ededed;
+	margin: -40rem 0.5rem;
+	padding: 0;
+	border-radius: 10px;
+	transition: 0.5s all;
 }
 .review h3 {
-  margin: 1rem 15rem;
+	margin: 1rem 15rem;
 }
 .review p {
-  margin: -8rem 15rem;
-  font-weight: bold;
-  font-size: 15px;
-  width: 25rem;
-  font-family: "Poppins", sans-serif;
+	margin: -8rem 15rem;
+	font-weight: bold;
+	font-size: 15px;
+	width: 25rem;
+	font-family: 'Poppins', sans-serif;
 }
 .review img {
-  width: 206px;
-  height: 214px;
-  margin: -3rem 1rem;
+	width: 206px;
+	height: 214px;
+	margin: -3rem 1rem;
 }
 .review:hover {
-  transform: scale(1.02, 1.02);
+	transform: scale(1.02, 1.02);
 }
 .forma {
-  background-image: url(../img/Rectangle\ 27.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0;
-  width: 100%;
-  height: 87vh;
+	background-image: url(../img/Rectangle\ 27.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0;
+	width: 100%;
+	height: 87vh;
 }
 form {
-  background-color: rgb(39 39 39 / 22%);
-  width: 500px;
-  margin: 0rem 50rem;
-  height: 87vh;
-  backdrop-filter: blur(5px);
-  padding: 0rem 1rem;
+	background-color: rgb(39 39 39 / 22%);
+	width: 500px;
+	margin: 0rem 50rem;
+	height: 87vh;
+	backdrop-filter: blur(5px);
+	padding: 0rem 1rem;
 }
 form input,
 form button {
-  display: block;
-  margin: 1rem auto;
+	display: block;
+	margin: 1rem auto;
 }
 form input {
-  width: 28rem;
-  background-color: rgba(255, 255, 255, 0);
-  border: none;
-  border-bottom: 1px solid white;
-  margin-top: 3rem;
-  outline: none;
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
-  transition: 0.5s all;
+	width: 28rem;
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+	border-bottom: 1px solid white;
+	margin-top: 3rem;
+	outline: none;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	transition: 0.5s all;
 }
 form input::placeholder {
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
 }
 form h1,
 form p {
-  font-family: "Poppins", sans-serif;
-  margin: 0rem 4rem;
-  font-weight: bold;
-  color: rgb(255, 255, 255);
+	font-family: 'Poppins', sans-serif;
+	margin: 0rem 4rem;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
 }
 form p {
-  color: #ffc700;
+	color: #ffc700;
 }
 form button {
-  width: 216px;
-  height: 53px;
-  border-radius: 99px;
-  border: none;
-  margin: 0rem 1.4rem;
-  color: white;
-  font-weight: bold;
-  background-color: #ffffff51;
-  transition: 0.5s;
+	width: 216px;
+	height: 53px;
+	border-radius: 99px;
+	border: none;
+	margin: 0rem 1.4rem;
+	color: white;
+	font-weight: bold;
+	background-color: #ffffff51;
+	transition: 0.5s;
 }
 form button:hover {
-  background-color: #0499dd;
+	background-color: #0499dd;
 }
 form input:focus {
-  border-bottom-color: #33beff;
+	border-bottom-color: #33beff;
 }
 footer {
-  background-color: #f2f1ed;
-  height: 18vh;
-  width: 100%;
-  padding: 1rem 1rem;
+	background-color: #f2f1ed;
+	height: 18vh;
+	width: 100%;
+	padding: 1rem 1rem;
 }
 .logo_footer {
-  margin: 1rem 1rem;
+	margin: 1rem 1rem;
 }
 footer a {
-  display: inline;
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  font-weight: 600;
-  font-size: 17px;
-  font-family: "Poppins", sans-serif;
-  transition: 0.5s all;
-  width: 9rem;
-  margin: 8px 1rem;
+	display: inline;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	font-weight: 600;
+	font-size: 17px;
+	font-family: 'Poppins', sans-serif;
+	transition: 0.5s all;
+	width: 9rem;
+	margin: 8px 1rem;
 }
 footer a:hover {
-  color: #ffc700;
+	color: #ffc700;
+}
+.menu_phone {
+	display: none;
 }
 .contact {
-  margin: 5rem 50rem;
+	margin: 5rem 50rem;
 }
 .contact p {
-  font-weight: bold;
-  font-family: "Poppins", sans-serif;
-  margin-top: 10px;
-  width: 280px;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+	margin-top: 10px;
+	width: 280px;
 }
 .footer_text {
-  margin: -7rem 15rem;
+	margin: -7rem 15rem;
 }
 .message {
-  width: 453px;
-  height: 26px;
-  margin: 2rem 1.5rem;
-  background-color: rgba(255, 255, 255, 0);
-  border: none;
-  border-bottom: 1px solid white;
-  outline: none;
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
-  resize: none;
-  margin-top: 1rem;
-  transition: 0.5s all;
+	width: 453px;
+	height: 26px;
+	margin: 2rem 1.5rem;
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+	border-bottom: 1px solid white;
+	outline: none;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	resize: none;
+	margin-top: 1rem;
+	transition: 0.5s all;
 }
 .message::placeholder {
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
 }
 .message:focus {
-  word-wrap: break-word;
-  word-break: break-all;
-  padding: 0;
-  height: 28vh;
-  border: 1px solid #0498dd00;
-  border-color: #009eff;
+	word-wrap: break-word;
+	word-break: break-all;
+	padding: 0;
+	height: 28vh;
+	border: 1px solid #0498dd00;
+	border-color: #009eff;
 }
 footer .social {
-  margin: -8rem 73rem;
+	margin: -8rem 73rem;
 }
-.question{
-  animation: question 2s infinite ease-in-out;
-  top: 0;
-  margin: 41rem 86rem;
-  position: fixed;
-  float: right;
-  padding: 17px 27px;
-  background-color:#009dff;
-  border-radius: 2rem;
-  color: #000000;
-  font-weight: bold;
-  font-size: 20px;
-  cursor: pointer;
-  font-family: "Poppins", sans-serif;
-  transition: 0.5s all;
+.question {
+	animation: question 2s infinite ease-in-out;
+	top: 0;
+	margin: 41rem 86rem;
+	position: fixed;
+	float: right;
+	padding: 17px 27px;
+	background-color: #009dff;
+	border-radius: 2rem;
+	color: #000000;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+	font-family: 'Poppins', sans-serif;
+	transition: 0.5s all;
 }
-.question:hover{
-  background-color: #009eff;
-  color: white;
-  transform: scale(1.1);
+.question:hover {
+	background-color: #009eff;
+	color: white;
+	transform: scale(1.1);
 }
-.question::after{
- content: 'Задать вопрос';
-  font-size: 13px;
-  background-color: #009eff;
-  color: rgb(255, 255, 255);
-  width: 126px;
-  height: 44px;
-  position: absolute;
-  margin: -2.2rem -10rem;
-  text-align: center;
-  border-radius: 3px;
-  display: none;
-  cursor: default;
-  font-weight: 600;
+.question::after {
+	content: 'Задать вопрос';
+	font-size: 13px;
+	background-color: #009eff;
+	color: rgb(255, 255, 255);
+	width: 126px;
+	height: 44px;
+	position: absolute;
+	margin: -2.2rem -10rem;
+	text-align: center;
+	border-radius: 3px;
+	display: none;
+	cursor: default;
+	font-weight: 600;
 }
-.question:hover::after{
-  display: inherit;
+.question:hover::after {
+	display: inherit;
 }
 @keyframes question {
-    0%{
-      box-shadow:0px 0px 0px 0px #009eff ;
-    }
-    50%{
-      box-shadow:1px 1px 20px 1px #1e92da ;
-    }
-    100%{
-       box-shadow:0px 0px 0px 0px #009eff ;
-    }
-  }
+	0% {
+		box-shadow: 0px 0px 0px 0px #009eff;
+	}
+	50% {
+		box-shadow: 1px 1px 20px 1px #1e92da;
+	}
+	100% {
+		box-shadow: 0px 0px 0px 0px #009eff;
+	}
+}
+@media screen and (max-width: 600px) {
+	body {
+		overflow-x: hidden;
+	}
+	header {
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 100vh;
+	}
+	nav {
+		margin: 10px 1rem;
+		padding-left: 16rem;
+		padding-top: 1rem;
+		backdrop-filter: blur(0px);
+		background-color: inherit;
+		border: none;
+		box-shadow: none;
+		display: flex;
+		align-items: center;
+	}
+	nav .social {
+		display: none;
+	}
+	nav p,
+	nav a {
+		display: none;
+	}
+	/* 	nav::after {
+		content: '';
+    background-image: url(../img/menu_phone.png);
+    width: 32px;
+    height: 32px;
+    display: flex;
+    margin-left: 4rem;
+	} */
+	.menu_phone {
+		width: 32px;
+		height: 32px;
+		font-size: 2rem;
+		display: flex;
+		background-color: inherit;
+		margin: 0 4rem;
+		display: inherit;
+	}
+	.menu_phone:hover {
+		background-color: inherit;
+		color: white;
+	}
+	header h1 {
+		padding: 8rem 2rem 0px;
+	}
+
+	header button {
+		margin: 5rem 5rem;
+		width: 184px;
+		height: 53px;
+	}
+
+	main {
+		width: 100%;
+	}
+	main h3 {
+		margin: 3rem;
+	}
+	main img {
+	}
+	.slider {
+		margin: 11rem 0rem;
+	}
+	.slider img {
+		width: 24.5rem;
+		height: 22rem;
+	}
+	.cards {
+		display: flex;
+		flex-direction: column;
+	}
+	.cir {
+		margin: 0;
+	}
+	.line_slide {
+		display: flex;
+		gap: 10px;
+		margin: 14rem 11rem;
+		position: absolute;
+	}
+	.slider button {
+		margin: 15rem 11rem;
+		position: absolute;
+		font-size: 2rem;
+	}
+	.aboutus {
+		margin: 0rem;
+	}
+}
