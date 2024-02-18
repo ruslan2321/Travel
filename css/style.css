@@ -638,7 +638,7 @@ footer .social {
 		background-size: cover;
 		background-repeat: no-repeat;
 		width: 100%;
-		height: 72vh;
+		height: 86vh;
 		margin-top: 10rem;
 		padding: 0;
 	}
@@ -662,8 +662,8 @@ footer .social {
 	}
 	form {
 		margin: 0;
-		width: 357px;
-		height: 71vh;
+		width: 390px;
+    height: 86vh;
 	}
 	.question {
 		margin: 41rem 20rem;
