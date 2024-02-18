@@ -155,3 +155,79 @@ footer a:hover {
 footer .social {
   margin: -8rem 73rem;
 }
+@media screen and (max-width: 600px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  nav {
+		margin: 10px 1rem;
+		padding-left: 16rem;
+		padding-top: 1rem;
+		backdrop-filter: blur(0px);
+		background-color: inherit;
+		border: none;
+		box-shadow: none;
+    position: relative;
+  }
+  	nav .social {
+		display: none;
+	}
+  nav a, nav p {
+		display: none;
+	}
+  footer{
+    display: none;
+  }
+  .menu_phone {
+		width: 32px;
+		height: 32px;
+		font-size: 2rem;
+		display: flex;
+		background-color: inherit;
+		margin: 0 4rem;
+		display: inherit;
+		border:none ;
+	}
+	.menu_phone_close{
+		width: 32px;
+		height: 32px;
+		font-size: 2rem;
+		display: flex;
+		background-color: inherit;
+		margin: 0 4rem;
+		display: inherit;
+		border:none ;
+		color: white;
+		opacity: 0;
+		z-index: -1;
+	}
+  .price{
+    margin: 0;
+  }
+  header{
+    height: 0;
+
+  }
+  .menu_phone_screen {
+		opacity: 0;
+		z-index: -1;
+		width: 24.5rem;
+		height: 53rem;
+		background-color: #0000007a;
+		margin-left: -17rem;
+		position: absolute;
+		display: inherit;
+		padding: 11rem 0rem 0rem;
+    margin: -2rem -17rem 0rem;
+	}
+	.menu_phone_screen a{
+		display: flex;
+		color: rgb(255, 255, 255);
+		position: relative;
+		margin: 1rem 8rem 0rem;
+		font-size: 2rem;
+
+	}
+}

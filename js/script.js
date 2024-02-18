@@ -28,6 +28,7 @@ const  Scroll = () => {
 menubtn.addEventListener('click', () =>{
   menuphonescreen.style.opacity = 1;
   menuphonescreen.style.zindex = 1
+  menuphonescreen.style.display = 'inherit'
   closescreen.style.zindex = 2
   closescreen.style.opacity = 1
   closescreen.style.display = 'inherit'
@@ -37,6 +38,7 @@ menubtn.addEventListener('click', () =>{
 closescreen.addEventListener('click', () =>{
   menuphonescreen.style.opacity = 0
 	menuphonescreen.style.zindex = -1
+  menuphonescreen.style.display = 'none'
 	closescreen.style.zindex = 0
 	closescreen.style.opacity = -1
   closescreen.style.display = 'none'

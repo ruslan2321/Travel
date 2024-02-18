@@ -443,6 +443,11 @@ footer .social {
 	}
 }
 @media screen and (max-width: 600px) {
+	  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 	body {
 		overflow-x: hidden;
 	}
@@ -665,12 +670,13 @@ footer .social {
 		opacity: 0;
 		z-index: -1;
 		width: 24.5rem;
-		height: 40rem;
+		height: 53rem;
 		background-color: #0000007a;
 		margin-left: -17rem;
 		position: absolute;
 		display: inherit;
 		padding: 11rem 0rem 0rem;
+		margin: -2rem -17rem 0rem;
 	}
 	.menu_phone_screen a{
 		display: flex;
